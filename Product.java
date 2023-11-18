@@ -1,5 +1,3 @@
-package com.learningjava;
-
 import java.math.BigDecimal;
 
 public class Product {

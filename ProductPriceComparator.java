@@ -1,5 +1,3 @@
-package com.learningjava;
-
 import java.util.Comparator;
 
 public class ProductPriceComparator implements Comparator<Product>{

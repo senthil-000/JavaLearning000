@@ -1,16 +1,14 @@
-package com.learningjava;
-
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
-import static com.learningjava.Category.*;
+import static Category.*;
 
 public class ProductList {
 	
 	
 	List<Product>  products = Arrays.asList(
-			
+		
 			new Product(FOOD, "Oranges", new BigDecimal("1.65")),
             new Product(FOOD, "Gouda cheese", new BigDecimal("6.79")),
             new Product(UTENSILS, "Plates", new BigDecimal("12.95")),
